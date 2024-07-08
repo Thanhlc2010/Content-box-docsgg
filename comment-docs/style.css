@@ -1,0 +1,128 @@
+.comment-box {
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 10);
+    border-radius: 10px;
+    background-color: white;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.comment-author {
+    font-weight: bold;
+}
+
+.comment-content {
+    margin-bottom: 10px;
+}
+
+.comment-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.comment-actions {
+    display: flex;
+}
+
+
+
+.comment-textarea {
+    background: #fff;
+    border: 1px solid #747775;
+    border-radius: 18px;
+    color: #1f1f1f;
+    font-family: Google Sans, Roboto, sans-serif;
+    padding: 8px 7px 8px 16px;  
+    line-height: 10px;
+    height: auto;
+    box-sizing: border-box;
+    font-size: 14px;
+    min-height: 36px;
+    display: block;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    outline-width: 0 !important;
+    padding: 4px;
+    resize: none;
+    width: 95%;
+    cursor: text;
+    text-align: start;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.comment-cancel {
+    color: rgb(11, 87, 208);
+    background-color: #fff; /* Nền trắng */
+    border: 1px solid #ccc; /* Viền xám */
+    border-radius: 50%; /* Hình tròn */
+    padding: 8px 10px; /* Khoảng cách giữa viền và nội dung */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển đổi màu nền */
+}
+
+.comment-cancel-docs {
+    border-radius: 100px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: Google Sans, Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+    color: #0b57d0;
+    padding: 9px 12px;
+    background: transparent;
+    border: 1px solid transparent !important;
+    height: 36px;
+    line-height: 18px;
+}
+
+.comment-cancel-docs:hover {
+    color: #0b57d0;
+    padding: 9px 12px;
+    background-color: rgba(11, 87, 208, .08);
+}
+
+.comment-submit {
+    font-family: Google Sans, Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+    border-radius: 100px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.comment-submit-disabled {
+    height: 36px;
+    line-height: 16px;
+    padding: 9px 16px;
+    background: #e4e4e4;
+    color: #1f1f1f;
+    cursor: default;
+}
+
+.comment-submit-enable {
+    border: 1px solid transparent;
+    border-radius: 100px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: Google Sans, Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+    height: 36px;
+    line-height: 16px;
+    padding: 9px 16px;
+    background: #0b57d0;
+    color: #fff;
+}
